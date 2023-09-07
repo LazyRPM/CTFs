@@ -1,0 +1,43 @@
+split
+
+memset
+
+0x28 32bytes 
+
+plt = procedural linkage table
+
+loads process
+loads elf
+
+var = elf.sym['<function>']
+
+.data
+/bin/cat flag.txt
+
+string + function 
+
+system call 
+- takes 1 parameter
+- whatever's in there, executes
+
+Gadgets? 
+POP RDI, RETURN
+
+imagine 
+- daisy chain
+- goldberg machine
+- dominos
+
+new variable
+r: pwntools libary ROP(e)
+r = ROP(<var>) 
+
+gadget(?) = does something -> return
+
+c code string (?) null terminated array
+
+variable for system
+
+pad + pop_rdi + cat_flag + system
+
+2 registers 
